@@ -19,49 +19,45 @@ export default function WorkPage({ page }) {
   const baseNum = parseInt(page, 10)
   if (page === '1') {
     pageNav = (
-      <div>
+      <div className="text-center text-sm text-gray-400">
+        Page {baseNum}{' '}
         <Link href="/2">
-          <a>Page 2 </a>
+          <a className="text-blue-500">-&gt;</a>
         </Link>
       </div>
     )
   } else if (baseNum === 2) {
     pageNav = (
-      <>
-        <div>
-          <Link href="/">
-            <a>Page {baseNum - 1}</a>
-          </Link>{' '}
-          -{' '}
-          <Link href={`/${baseNum + 1}`}>
-            <a>Page {baseNum + 1}</a>
-          </Link>
-        </div>
-      </>
+      <div className="text-center text-sm text-gray-400">
+        <Link href="/">
+          <a className="text-blue-500">&lt;-</a>
+        </Link>{' '}
+        Page {baseNum}{' '}
+        <Link href={`/${baseNum + 1}`}>
+          <a className="text-blue-500">-&gt;</a>
+        </Link>
+      </div>
     )
   } else if (baseNum < pages.length - 1) {
     pageNav = (
-      <>
-        <div>
-          <Link href={`/${baseNum - 1}`}>
-            <a>Page {baseNum - 1}</a>
-          </Link>{' '}
-          -{' '}
-          <Link href={`/${baseNum + 1}`}>
-            <a>Page {baseNum + 1}</a>
-          </Link>
-        </div>
-      </>
+      <div className="text-center text-sm text-gray-400">
+        <Link href={`/${baseNum - 1}`}>
+          <a className="text-blue-500">&lt;-</a>
+        </Link>{' '}
+        Page {baseNum}{' '}
+        <Link href={`/${baseNum + 1}`}>
+          <a className="text-blue-500">-&gt;</a>
+        </Link>
+      </div>
     )
   } else {
     pageNav = (
-      <>
-        <div>
-          <Link href={`/${baseNum - 1}`}>
-            <a>Page {baseNum - 1}</a>
-          </Link>{' '}
-        </div>
-      </>
+      <div className="text-center text-sm text-gray-400">
+        <Link href={`/${baseNum - 1}`}>
+          <a className="text-blue-500">&lt;-</a>
+        </Link>{' '}
+        Page {baseNum}
+      </div>
     )
   }
 
