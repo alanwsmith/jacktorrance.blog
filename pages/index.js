@@ -6,6 +6,12 @@ export default function Home() {
   const [pageNum, setPageNum] = useState(1)
   const router = useRouter()
 
+  const pages = [
+    '',
+    'all work and no play makes jack a dull boy',
+    'ALL work and no Play makes jack a dull boy',
+  ]
+
   useEffect(() => {
     if (!router.isReady) return
     const page = router.query['page']
@@ -21,8 +27,7 @@ export default function Home() {
 
       <div className="flex flex-col h-screen">
         <div className="flex-grow" id="container">
-          <p>all work and no play makes jack a dull boy</p>
-          <p>Page: {pageNum}</p>
+          <pre>{pages[pageNum]}</pre>
         </div>
         <div className="text-xs text-right">This is the footer</div>
       </div>
