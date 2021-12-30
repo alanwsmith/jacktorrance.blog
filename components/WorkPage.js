@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { useEffect } from 'react'
 
 const pages = [
   '',
@@ -15,8 +16,29 @@ a dull boy`,
 ]
 
 export default function WorkPage({ page }) {
-  var pageNav
   const baseNum = parseInt(page, 10)
+
+  function jumpPage() {
+    var pageToJumpTo = Math.floor(Math.random() * pages.length)
+    if (pageToJumpTo === 0) {
+      pageToJumpTo = 1
+    }
+    if (pageToJumpTo === baseNum) {
+      pageToJumpTo = 2
+      if (baseNum === 2) {
+        pageToJumpTo = 1
+      }
+    }
+    if (window) {
+      window.location.href = `/${pageToJumpTo}`
+    }
+  }
+
+  useEffect(() => {
+    const pageJumper = setTimeout(jumpPage, 4000)
+  })
+
+  var pageNav
   if (page === '1') {
     pageNav = (
       <div className="text-center text-sm text-gray-400">
