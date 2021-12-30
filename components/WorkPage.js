@@ -67,8 +67,13 @@ export default function WorkPage({ page }) {
 
   return (
     <>
-      <pre>{pages[page]}</pre>
-      {pageNav}
+      <div className="flex flex-col h-screen">
+        <div className="flex-grow" id="container">
+          <pre>{pages[page]}</pre>
+        </div>
+        <div>{pageNav}</div>
+        <div className="text-xs text-right">This is the footer</div>
+      </div>
     </>
   )
 }

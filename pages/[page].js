@@ -15,11 +15,7 @@ export default function Home() {
         <meta name="description" content="The writing of Jack Torrance" />
       </Head>
 
-      <div className="flex flex-col h-screen">
-        <div className="flex-grow" id="container"></div>
-        <WorkPage page={page} />
-        <div className="text-xs text-right">This is the footer</div>
-      </div>
+      <WorkPage page={page} />
     </div>
   )
 }
