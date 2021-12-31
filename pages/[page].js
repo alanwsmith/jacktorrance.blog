@@ -11,10 +11,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>A Jack Torrance Experience</title>
+        <title>Autobiography Of Jack Torrance</title>
         <meta name="description" content="The writing of Jack Torrance" />
       </Head>
-
       <WorkPage page={page} />
     </div>
   )

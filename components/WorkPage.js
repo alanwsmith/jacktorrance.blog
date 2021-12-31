@@ -1,34 +1,6 @@
 import Link from 'next/link'
 import { useEffect } from 'react'
-
-const pages = [
-  '',
-  `All work and no play makes Jack a dull boy`,
-  `All work and no play makes Jack a dull boy
-All work and no play makes Jack a dull boy
-All work and no play makes Jack a dull boy
-All work and no play makes Jack a dull boy`,
-  'ALL work and no Play makes jack a dull boy',
-  'allworkandnoplaymakesjackadullboy',
-  `all work
-and no play
-makes jack
-a dull boy`,
-  `aLL wORK aND nO pLAY mAKES jACK a dULL bOY`,
-  `ALL WORK and NO PLAY MAKES jack A DULL boy
-all WORK and no PLAY MAKES JACK A dull boy
-all work AND no play MAKES JACK A DULL BOY
-all WORK and no PLAY makes JACK A DULL boy
-ALL work and NO PLAY MAKES JACK a DULL boy
-ALL work AND no play makes JACK A dull boy`,
-  `All work and no play makes Jack a dull boy
-All work             makes Jack a dull boy
-All work             makes Jack a dull boy
-All work             makes Jack a dull boy
-All work             makes Jack a dull boy
-All work             makes Jack a dull boy
-All work             makes Jack a dull boy`,
-]
+import { pages } from './Pages'
 
 export default function WorkPage({ page }) {
   const baseNum = parseInt(page, 10)
@@ -49,41 +21,50 @@ export default function WorkPage({ page }) {
     }
   }
 
-  useEffect(() => {
-    const pageJumper = setTimeout(jumpPage, 10000)
-  })
-
   var pageNav
-  if (page === '1') {
-    pageNav = (
-      <>
-        Page {baseNum}{' '}
-        <Link href="/2">
-          <a className="text-blue-500">-&gt;</a>
-        </Link>
-      </>
-    )
-  } else if (baseNum === 2) {
+  if (baseNum === 1) {
+    let pageDisplay = `\u00A0\u00A0Page\u00A0\u00A0${baseNum}\u00A0\u00A0`
     pageNav = (
       <>
         <Link href="/">
-          <a className="text-blue-500">&lt;-</a>
-        </Link>{' '}
-        Page {baseNum}{' '}
-        <Link href={`/${baseNum + 1}`}>
-          <a className="text-blue-500">-&gt;</a>
+          <a className="text-blue-700">Cover</a>
+        </Link>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <Link href="/">
+          <a className="text-blue-700">&lt;-</a>
+        </Link>
+        {pageDisplay}
+        <Link href="/2">
+          <a className="text-blue-700">-&gt;</a>
+        </Link>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <Link href={`/${Math.floor(Math.random() * (pages.length - 2)) + 1}`}>
+          <a className="text-blue-700">Random</a>
         </Link>
       </>
     )
   } else if (baseNum < pages.length - 1) {
+    let pageDisplay = `\u00A0\u00A0Page\u00A0\u00A0${baseNum}\u00A0\u00A0`
+    if (baseNum > 9) {
+      pageDisplay = `\u00A0\u00A0Page\u00A0${baseNum}\u00A0\u00A0`
+    }
+
     pageNav = (
       <>
+        <Link href="/">
+          <a>Cover</a>
+        </Link>
+        &nbsp;&nbsp;&nbsp;&nbsp;
         <Link href={`/${baseNum - 1}`}>
           <a className="text-blue-500">&lt;-</a>
-        </Link>{' '}
-        Page {baseNum}{' '}
+        </Link>
+        {pageDisplay}
         <Link href={`/${baseNum + 1}`}>
           <a className="text-blue-500">-&gt;</a>
+        </Link>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <Link href={`/${Math.floor(Math.random() * (pages.length - 2)) + 1}`}>
+          <a>Random</a>
         </Link>
       </>
     )
