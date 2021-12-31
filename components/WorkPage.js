@@ -3,16 +3,31 @@ import { useEffect } from 'react'
 
 const pages = [
   '',
-  `all work and no play makes jack a dull boy
-all work and no play makes jack a dull boy
-all work and no play makes jack a dull boy
-all work and no play makes jack a dull boy`,
+  `All work and no play makes Jack a dull boy`,
+  `All work and no play makes Jack a dull boy
+All work and no play makes Jack a dull boy
+All work and no play makes Jack a dull boy
+All work and no play makes Jack a dull boy`,
   'ALL work and no Play makes jack a dull boy',
   'allworkandnoplaymakesjackadullboy',
   `all work
 and no play
 makes jack
 a dull boy`,
+  `aLL wORK aND nO pLAY mAKES jACK a dULL bOY`,
+  `ALL WORK and NO PLAY MAKES jack A DULL boy
+all WORK and no PLAY MAKES JACK A dull boy
+all work AND no play MAKES JACK A DULL BOY
+all WORK and no PLAY makes JACK A DULL boy
+ALL work and NO PLAY MAKES JACK a DULL boy
+ALL work AND no play makes JACK A dull boy`,
+  `All work and no play makes Jack a dull boy
+All work             makes Jack a dull boy
+All work             makes Jack a dull boy
+All work             makes Jack a dull boy
+All work             makes Jack a dull boy
+All work             makes Jack a dull boy
+All work             makes Jack a dull boy`,
 ]
 
 export default function WorkPage({ page }) {
@@ -35,22 +50,22 @@ export default function WorkPage({ page }) {
   }
 
   useEffect(() => {
-    const pageJumper = setTimeout(jumpPage, 4000)
+    const pageJumper = setTimeout(jumpPage, 10000)
   })
 
   var pageNav
   if (page === '1') {
     pageNav = (
-      <div className="text-center text-sm text-gray-400">
+      <>
         Page {baseNum}{' '}
         <Link href="/2">
           <a className="text-blue-500">-&gt;</a>
         </Link>
-      </div>
+      </>
     )
   } else if (baseNum === 2) {
     pageNav = (
-      <div className="text-center text-sm text-gray-400">
+      <>
         <Link href="/">
           <a className="text-blue-500">&lt;-</a>
         </Link>{' '}
@@ -58,11 +73,11 @@ export default function WorkPage({ page }) {
         <Link href={`/${baseNum + 1}`}>
           <a className="text-blue-500">-&gt;</a>
         </Link>
-      </div>
+      </>
     )
   } else if (baseNum < pages.length - 1) {
     pageNav = (
-      <div className="text-center text-sm text-gray-400">
+      <>
         <Link href={`/${baseNum - 1}`}>
           <a className="text-blue-500">&lt;-</a>
         </Link>{' '}
@@ -70,27 +85,43 @@ export default function WorkPage({ page }) {
         <Link href={`/${baseNum + 1}`}>
           <a className="text-blue-500">-&gt;</a>
         </Link>
-      </div>
+      </>
     )
   } else {
     pageNav = (
-      <div className="text-center text-sm text-gray-400">
+      <>
         <Link href={`/${baseNum - 1}`}>
           <a className="text-blue-500">&lt;-</a>
         </Link>{' '}
         Page {baseNum}
-      </div>
+      </>
     )
   }
 
   return (
     <>
       <div className="flex flex-col h-screen">
+        <div className="bg-gray-800 tiny text-right text-gray-400 pr-2">
+          From{' '}
+          <a className="text-blue-400" href="https://twitter.com/TheIdOfAlan">
+            Alan W. Smith
+          </a>{' '}
+          (who has a{' '}
+          <a
+            className="text-blue-400"
+            href="https://www.alanwsmith.com/the-pod-of-alan"
+          >
+            podcast
+          </a>
+          ) for{' '}
+          <a className="text-blue-400" href="https://dusty.domains/">
+            Dusty Domains 2021
+          </a>
+        </div>
         <div className="flex-grow" id="container">
           <pre>{pages[page]}</pre>
         </div>
-        <div>{pageNav}</div>
-        <div className="text-xs text-right">This is the footer</div>
+        <div className="pb-4 text-xs text-center text-gray-800">{pageNav}</div>
       </div>
     </>
   )
