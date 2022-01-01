@@ -69,12 +69,24 @@ export default function WorkPage({ page }) {
       </>
     )
   } else {
+    let pageDisplay = `\u00A0\u00A0Page\u00A0\u00A0${baseNum}\u00A0\u00A0`
+    if (baseNum > 9) {
+      pageDisplay = `\u00A0\u00A0Page\u00A0${baseNum}\u00A0\u00A0`
+    }
     pageNav = (
       <>
+        <Link href="/">
+          <a className="text-blue-700">Cover</a>
+        </Link>
+        &nbsp;&nbsp;&nbsp;&nbsp;
         <Link href={`/${baseNum - 1}`}>
-          <a className="text-blue-500">&lt;-</a>
-        </Link>{' '}
-        Page {baseNum}
+          <a className="text-blue-700">&lt;-</a>
+        </Link>
+        {pageDisplay}
+        <span className="text-gray-300">-&gt;</span> &nbsp;&nbsp;&nbsp;
+        <Link href={`/${Math.floor(Math.random() * (pages.length - 2)) + 1}`}>
+          <a className="text-blue-700">Random</a>
+        </Link>
       </>
     )
   }
