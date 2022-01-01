@@ -23,7 +23,7 @@ export default function Home() {
         By Jack Torrance
           `}</pre>
         </div>
-        <div className="pb-4 text-xs text-center text-gray-800">
+        <div className="pb-20 text-sm text-center text-gray-800">
           <span className="text-gray-300">&lt;-</span>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <Link href="/1">
