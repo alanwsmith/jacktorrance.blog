@@ -52,19 +52,19 @@ export default function WorkPage({ page }) {
     pageNav = (
       <>
         <Link href="/">
-          <a>Cover</a>
+          <a className="text-blue-700">Cover</a>
         </Link>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <Link href={`/${baseNum - 1}`}>
-          <a className="text-blue-500">&lt;-</a>
+          <a className="text-blue-700">&lt;-</a>
         </Link>
         {pageDisplay}
         <Link href={`/${baseNum + 1}`}>
-          <a className="text-blue-500">-&gt;</a>
+          <a className="text-blue-700">-&gt;</a>
         </Link>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <Link href={`/${Math.floor(Math.random() * (pages.length - 2)) + 1}`}>
-          <a>Random</a>
+          <a className="text-blue-700">Random</a>
         </Link>
       </>
     )
