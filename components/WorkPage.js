@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useEffect } from 'react'
 import { pages } from './Pages'
+import Header from './Header'
 
 export default function WorkPage({ page }) {
   const baseNum = parseInt(page, 10)
@@ -94,23 +95,7 @@ export default function WorkPage({ page }) {
   return (
     <>
       <div className="flex flex-col h-screen">
-        <div className="bg-gray-800 text-sm text-right text-gray-400 pr-2">
-          From{' '}
-          <a className="text-blue-400" href="https://twitter.com/TheIdOfAlan">
-            Alan W. Smith
-          </a>{' '}
-          (who has a{' '}
-          <a
-            className="text-blue-400"
-            href="https://www.alanwsmith.com/the-pod-of-alan"
-          >
-            podcast
-          </a>
-          ) for{' '}
-          <a className="text-blue-400" href="https://dusty.domains/">
-            Dusty Domains 2021
-          </a>
-        </div>
+        <Header />
         <div className="flex-grow pb-28" id="container">
           <pre className="text-md">{pages[page]}</pre>
         </div>

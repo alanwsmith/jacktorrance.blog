@@ -29,88 +29,74 @@ All work and no play makes Jack a dull boy
 All work and no play makes Jack a dull boy
 
 All work and no play makes Jack a dull boy`
-,`all WORK AND NO PLAY MAKES JACK A DULL BOY
+,`all work and no play makes
+
+
+                           JACK
+
+
+                                a dull boy`
+,`    WORK
+all      and no play makes jack a dull boy
+                PLAY
+                PLAY
+                PLAY
+                PLAY
 `
-,`all work
-and no
-play makes
-jack a
-dull boy
+,`  All work and no play makes Jack a dull boy
+    All work and no play makes Jack a dull boy
+        All work and no play makes Jack a dull boy
+     All work and no play makes Jack a dull boy
+      All work and no play makes Jack a dull boy
+        All work and no play makes Jack a dull boy
+ All work and no play makes Jack a dull boy
+         All work and no play makes Jack a dull boy
+`
+,`ALL .... ... .. .... ..... .... . .... ...
+... WORK ... .. .... ..... .... . .... ...
+... .... AND .. .... ..... .... . .... ...
+... .... ... NO .... ..... .... . .... ...
+... .... ... .. PLAY ..... .... . .... ...
+... .... ... .. .... MAKES .... . .... ...
+... .... ... .. .... ..... JACK . .... ...
+... .... ... .. .... ..... .... A .... ...
+... .... ... .. .... ..... .... . DULL ...
+... .... ... .. .... ..... .... . .... BOY
 `
 ,`All                                                  
-                                       a             
-                                                boy  
-     work                                            
-           and                                       
-                no                                   
-                          makes                      
-                                 Jack                
-                    play                             
                                           dull       
-`
-,`                                          dull       
-                                       a             
-                no                                   
+                    play                             
+                          makes                      
      work                                            
            and                                       
-                                                boy  
-All                                                  
-                    play                             
                                  Jack                
-                          makes                      
+                                                boy  
+                                       a             
+                no                                   
 `
-,` ALL
- ALL
- ALL
- ALL
-     work and no play makes jack a dull boy
- ALL
- ALL
-`
-,`all WORK and no play makes jack a dull boy
-`
-,`DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
- all work and no play makes jack a dull boy
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-`
-,`ALL WORK AND NO play MAKES jack A DULL BOY
-ALL work AND no play MAKES jack a DULL boy
-ALL work and no PLAY MAKES JACK A dull BOY
-ALL WORK and no play MAKES jack a DULL boy
-all WORK AND no play makes JACK A DULL BOY
+,`all work and no play
+                      MAKES
+all work and no play
+                      JACK
+all work and no play
+                      A
+all work and no play
+                      DULL
+all work and no play
+                      BOY
 `
 ,`ALL WORK AND NO PLAY MAKES jack A DULL BOY
 `
-,`                                A
-                                A
-                                A
-                                A
-all work and no play makes jack   dull boy
-                                A
-                                A
+,`all WORK and no play makes jack a dull boy
 `
-,`                PLAY
-                PLAY
-                PLAY
-                PLAY
-all work and no      makes jack a dull boy
-                PLAY
-                PLAY
-                PLAY
-                PLAY
+,`all WORK AND NO PLAY MAKES JACK A DULL BOY
 `
-,`         AND
-         AND
-         AND
-         AND
-         AND
-         AND
-all work     no play makes jack a dull boy
+,`all work and NO play makes jack a dull boy
+`
+,`all work and no PLAY MAKES JACK A DULL BOY
+all work AND no play MAKES JACK A dull BOY
+all WORK AND no play MAKES jack A dull BOY
+ALL work AND NO play MAKES jack A DULL BOY
 `
 ,`ALL work and no play makes jack a dull boy
 all WORK and no play makes jack a dull boy
@@ -123,45 +109,6 @@ all work and no play makes jack A dull boy
 all work and no play makes jack a DULL boy
 all work and no play makes jack a dull BOY
 `
-,`all work and no play makes jack a dull
-
-
-                                       BOY
-
-
-                                           `
-,`                           JACK
-all work and no play makes      a dull boy
-                           JACK
-                           JACK
-                           JACK
-                           JACK
-                           JACK
-`
-,`                                  DULL
-                                  DULL
-all work and no play makes jack a      boy
-                                  DULL
-                                  DULL
-                                  DULL
-                                  DULL
-`
-,`ALLWORKANDNOPLAYMAKESJACKADULLBOY
-
-ALLWORKANDNOPLAYMAKESJACKADULLBOY
-
-ALLWORKANDNOPLAYMAKESJACKADULLBOY`
-,` All work and no play makes Jack a dull boy
-         All work and no play makes Jack a dull boy
-          All work and no play makes Jack a dull boy
-`
-,`all
-
-
-    WORK
-
-
-         and no play makes jack a dull boy`
 ,`all work and no play makes jack a
 
 
@@ -169,16 +116,68 @@ ALLWORKANDNOPLAYMAKESJACKADULLBOY`
 
 
                                        boy`
-,`      all   all   all         all         ALL   all   all   
-WORK  work  work        work  work  work  WORK  WORK  work  
-and         and   AND   and   and         AND               
-      no    no    no          no    no    NO          no    
-      play  play  play        play        play  play  play  
-makes       MAKES             makes MAKES       MAKES       
-      jack  JACK              jack        JACK  JACK  JACK  
-a     a     a     A     a           a     A     a           
-      dull  dull  dull                    dull  DULL        
-            boy         boy               boy   boy   boy   
+,`all
+
+
+    WORK
+
+
+         and no play makes jack a dull boy`
+,`all work and no play makes jack a dull
+
+
+                                       BOY
+
+
+                                           `
+,`all work and no play makes jack a dull BOY
+`
+,`ALL WORK AND NO PLAY makes JACK A DULL BOY
+`
+,`ALLWORKANDNOPLAYMAKESJACKADULLBOY
+
+ALLWORKANDNOPLAYMAKESJACKADULLBOY
+
+ALLWORKANDNOPLAYMAKESJACKADULLBOY`
+,`All work
+All work
+All work
+All work
+All work
+All work
+All work and no play makes Jack a dull boy
+`
+,`all work and no play makes JACK a dull boy
+`
+,`all
+work
+and
+no
+play
+makes
+jack
+a
+dull
+boy
+`
+,`                PLAY
+                PLAY
+                PLAY
+                PLAY
+all work and no      makes jack a dull boy
+                PLAY
+                PLAY
+                PLAY
+                PLAY
+`
+,`all work and no play makes jack
+
+
+                                A
+
+
+                                  dull boy`
+,`ALL work AND NO PLAY MAKES JACK A DULL BOY
 `
 ,`all work and no play
 
@@ -187,29 +186,6 @@ a     a     a     A     a           a     A     a
 
 
                            jack a dull boy`
-,`                PLAY
-                PLAY
-                PLAY
-                PLAY
-                PLAY
-                PLAY
-all work and no      makes jack a dull boy
-`
-,`ALL WORK and NO PLAY MAKES JACK A DULL BOY
-`
-,`      All work and no play makes Jack a dull boy
-       All work and no play makes Jack a dull boy
-         All work and no play makes Jack a dull boy
-   All work and no play makes Jack a dull boy
-   All work and no play makes Jack a dull boy
-         All work and no play makes Jack a dull boy
-  All work and no play makes Jack a dull boy
-    All work and no play makes Jack a dull boy
-      All work and no play makes Jack a dull boy
-         All work and no play makes Jack a dull boy
-         All work and no play makes Jack a dull boy
-     All work and no play makes Jack a dull boy
-`
 ,`             NO
              NO
              NO
@@ -219,94 +195,6 @@ all work and no      makes jack a dull boy
              NO
 all work and    play makes jack a dull boy
 `
-,`                     MAKES
-                     MAKES
-                     MAKES
-                     MAKES
-                     MAKES
-all work and no play       jack a dull boy
-                     MAKES
-`
-,`WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
-WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
-WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
-WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
- all work and no play makes jack a dull boy
-WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
-WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
-WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
-WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
-WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
-`
-,`all work and no play makes
-
-
-                           JACK
-
-
-                                a dull boy`
-,`all work and NO play makes jack a dull boy
-`
-,`DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
- all work and no play makes jack a dull boy
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-`
-,`all work AND no play makes jack a dull boy
-`
-,`ALL WORK and NO PLAY MAKES jack A DULL boy
-all WORK and no PLAY MAKES JACK A dull boy
-all work AND no play MAKES JACK A DULL BOY
-all WORK and no PLAY makes JACK A DULL boy
-ALL work and NO PLAY MAKES JACK a DULL boy
-ALL work AND no play makes JACK A dull boy
-`
-,`DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
- all work and no play makes jack a dull boy
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-`
-,`    WORK
-    WORK
-    WORK
-    WORK
-    WORK
-all      and no play makes jack a dull boy
-    WORK
-`
-,`ALL WORK        all work        ALL WORK        all work        ALL WORK        
-AND NO PLAY     and no play     AND NO PLAY     and no play     AND NO PLAY     
-MAKES JACK      makes jack      MAKES JACK      makes jack      MAKES JACK      
-A DULL BOY      a dull boy      A DULL BOY      a dull boy      A DULL BOY      
-`
-,`ALL WORK       all         DULL BOY
-ALL WORK       work        DULL BOY
-ALL WORK       and         DULL BOY
-ALL WORK       no          DULL BOY
-ALL WORK       play        DULL BOY
-ALL WORK       makes       DULL BOY
-ALL WORK       jack        DULL BOY
-ALL WORK       a           DULL BOY
-ALL WORK       dull        DULL BOY
-ALL WORK       boy         DULL BOY
-`
-,`ALL WORK AND no PLAY MAKES JACK A DULL BOY
-`
-,`all work
-
-
-         AND
-
-
-             no play makes jack a dull boy`
 ,`all work and no
 
 
@@ -314,52 +202,25 @@ ALL WORK       boy         DULL BOY
 
 
                      makes jack a dull boy`
-,`All                                                  
-                                          dull       
-                    play                             
-                          makes                      
-     work                                            
-           and                                       
-                                 Jack                
-                                                boy  
-                                       a             
-                no                                   
+,`ALL WORK and NO PLAY MAKES JACK A DULL BOY
 `
-,`all work and
-
-
-             NO
-
-
-                play makes jack a dull boy`
-,`ALL WORK AND NO PLAY MAKES JACK A DULL boy
+,`   ALL   ALL   ALL   ALL   ALL   ALL   ALL   ALL   ALL   ALL
+  WORK  WORK  WORK  WORK  WORK  WORK  WORK  WORK  WORK  WORK
+   AND   AND   AND   AND   AND   AND   AND   AND   AND   AND
+    NO    NO    NO    NO    NO    NO    NO    NO    NO    NO
+  PLAY  PLAY  PLAY  PLAY  PLAY  PLAY  PLAY  PLAY  PLAY  PLAY
+ MAKES MAKES MAKES MAKES MAKES MAKES MAKES MAKES MAKES MAKES
+  JACK  JACK  JACK  JACK  JACK  JACK  JACK  JACK  JACK  JACK
+     A     A     A     A     A     A     A     A     A     A
+  DULL  DULL  DULL  DULL  DULL  DULL  DULL  DULL  DULL  DULL
+   BOY   BOY   BOY   BOY   BOY   BOY   BOY   BOY   BOY   BOY
 `
-,`WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
-WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
-WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
- all work and no play makes jack a dull boy
-WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
-WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
-WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
-WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+,`all work and no PLAY makes jack a dull boy
 `
-,`all work and no play makes jack
-
-
-                                A
-
-
-                                  dull boy`
-,`                                 Jack                
-                          makes                      
-                no                                   
-                                                boy  
-           and                                       
-                                          dull       
-     work                                            
-                                       a             
-All                                                  
-                    play                             
+,`all work        all work        all work        all work        all work        
+and no play     and no play     and no play     and no play     and no play     
+makes jack      makes jack      makes jack      makes jack      makes jack      
+a dull boy      a dull boy      a dull boy      a dull boy      a dull boy      
 `
 ,`All work and no play makes Jack a dull boy
 All work             makes Jack a dull boy
@@ -373,26 +234,116 @@ All work             makes Jack a dull boy
 All work             makes Jack a dull boy
 All work             makes Jack a dull boy
 `
-,`    WORK
-all      and no play makes jack a dull boy
+,`                PLAY
                 PLAY
                 PLAY
                 PLAY
                 PLAY
+                PLAY
+all work and no      makes jack a dull boy
 `
-,`    WORK
-    WORK
-    WORK
-    WORK
-all      and no      makes jack a dull boy
-                PLAY
-                PLAY
-                PLAY
-                PLAY
+,`ALL WORK AND no PLAY MAKES JACK A DULL BOY
+`
+,`all work and no play MAKES jack a dull boy
+`
+,`allworkandnoplaymakesjackadullboy
+allworkandnoplaymakesjackadullboy
+allworkandnoplaymakesjackadullboy
+allworkandnoplaymakesjackadullboy
+allworkandnoplaymakesjackadullboy
+allworkandnoplaymakesjackadullboy
+allworkandnoplaymakesjackadullboy
+allworkandnoplaymakesjackadullboy
+`
+,`all work
+and no
+play makes
+jack a
+dull boy
+`
+,`all work and
+
+
+             NO
+
+
+                play makes jack a dull boy`
+,`ALL WORK        all work        ALL WORK        all work        ALL WORK        
+AND NO PLAY     and no play     AND NO PLAY     and no play     AND NO PLAY     
+MAKES JACK      makes jack      MAKES JACK      makes jack      MAKES JACK      
+A DULL BOY      a dull boy      A DULL BOY      a dull boy      A DULL BOY      
+`
+,`all   all   ALL               all   all   all   all         
+work  WORK  WORK  work  WORK  work  WORK  WORK  work  work  
+      and         and   and   and   AND         AND         
+      no          no    no    no    no          no    NO    
+PLAY  PLAY  PLAY  play  play  PLAY  play  play              
+makes MAKES       MAKES makes       makes makes       makes 
+      JACK  jack  jack  JACK  jack  jack  jack        jack  
+A     A     a     A     A                 A           a     
+DULL        dull        dull  dull                    dull  
+                  boy   boy   boy   BOY         boy   BOY   
+`
+,` ALL
+ ALL
+ ALL
+ ALL
+     work and no play makes jack a dull boy
+ ALL
+ ALL
+`
+,`All                                                  
+                                       a             
+                                                boy  
+     work                                            
+           and                                       
+                no                                   
+                          makes                      
+                                 Jack                
+                    play                             
+                                          dull       
+`
+,`DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+ all work and no play makes jack a dull boy
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+`
+,`                                 Jack                
+                          makes                      
+                no                                   
+                                                boy  
+           and                                       
+                                          dull       
+     work                                            
+                                       a             
+All                                                  
+                    play                             
 `
 ,`WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
 WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
  all work and no play makes jack a dull boy
+WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+`
+,`ALL     all work and no play
+WORK    all work and no play
+AND     all work and no play
+NO      all work and no play
+PLAY    all work and no play
+MAKES   all work and no play
+JACK    all work and no play
+A       all work and no play
+DULL    all work and no play
+BOY     all work and no play
+`
+,`WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+ all work and no play makes jack a dull boy
+WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
 WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
 WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
 WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
@@ -409,30 +360,16 @@ WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
     All work and no play makes Jack a dull
 All work and no play makes Jack a dull boy
 `
-,`     All work and no play makes Jack a dull boy
-          All work and no play makes Jack a dull boy
-          All work and no play makes Jack a dull boy
-     All work and no play makes Jack a dull boy
-    All work and no play makes Jack a dull boy
-`
-,`ALLALLALLALLALLALLALLALLALLALL
-WORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
-ANDANDANDANDANDANDANDANDANDAND
-NONONONONONONONONONO
-PLAYPLAYPLAYPLAYPLAYPLAYPLAYPLAYPLAYPLAY
-MAKESMAKESMAKESMAKESMAKESMAKESMAKESMAKESMAKESMAKES
-JACKJACKJACKJACKJACKJACKJACKJACKJACKJACK
-AAAAAAAAAA
-DULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
-BOYBOYBOYBOYBOYBOYBOYBOYBOYBOY
-`
-,`ALL WORK AND NO PLAY
-
-
-
-
-                    makes jack a dull boy`
-,`ALL work AND NO PLAY MAKES JACK A DULL BOY
+,`                                          dull       
+                                       a             
+                no                                   
+     work                                            
+           and                                       
+                                                boy  
+All                                                  
+                    play                             
+                                 Jack                
+                          makes                      
 `
 ,`                                       BOY
                                        BOY
@@ -442,34 +379,40 @@ all work and no play makes jack a dull
                                        BOY
                                        BOY
 `
-,`all work and no play makes JACK a dull boy
-`
-,`
+,`ALL WORK AND NO PLAY
 
 
- ALL
 
 
-    work and no play makes jack a dull boy`
-,`ALL .... ... .. .... ..... .... . .... ...
-... WORK ... .. .... ..... .... . .... ...
-... .... AND .. .... ..... .... . .... ...
-... .... ... NO .... ..... .... . .... ...
-... .... ... .. PLAY ..... .... . .... ...
-... .... ... .. .... MAKES .... . .... ...
-... .... ... .. .... ..... JACK . .... ...
-... .... ... .. .... ..... .... A .... ...
-... .... ... .. .... ..... .... . DULL ...
-... .... ... .. .... ..... .... . .... BOY
+                    makes jack a dull boy`
+,`all work and no play
+makes jack
+
+
+                          a dull boy
+                          a dull boy
+                          a dull boy
+                          a dull boy
+                          a dull boy
+                          a dull boy
 `
-,`ALL work and no play makes jack a dull boy
+,`    WORK
+    WORK
+    WORK
+    WORK
+    WORK
+all      and no play makes jack a dull boy
+    WORK
 `
-,`all WORK AND NO play makes jack a dull boy
-ALL WORK and no PLAY MAKES JACK A DULL boy
-ALL WORK AND no play MAKES jack a dull boy
-all work AND NO play MAKES jack a DULL BOY
+,`all work and no play makes jack a DULL boy
 `
-,`all work and no play makes jack a dull BOY
+,`                                  DULL
+                                  DULL
+all work and no play makes jack a      boy
+                                  DULL
+                                  DULL
+                                  DULL
+                                  DULL
 `
 ,`ALLWORKANDNOPLAYMAKESJACKADULLBOYALLWORKAND
 NOPLAYMAKESJACKADULLBOYALLWORKANDNOPLAYMAKES
@@ -477,25 +420,16 @@ JACKADULLBOYALLWORKANDNOPLAYMAKESJACKADULL
 BOYALLWORKANDNOPLAYMAKESJACKADULLBOYALLWORK
 ANDNOPLAYMAKESJACKADULLBOYALLWORKANDNOPLAY
 MAKESJACKADULLBOYALLWORKANDNOPLAY`
-,`  All work and no play makes Jack a dull boy
-    All work and no play makes Jack a dull boy
-        All work and no play makes Jack a dull boy
-     All work and no play makes Jack a dull boy
-      All work and no play makes Jack a dull boy
-        All work and no play makes Jack a dull boy
- All work and no play makes Jack a dull boy
-         All work and no play makes Jack a dull boy
-`
-,`ALL     all work and no play
-WORK    all work and no play
-AND     all work and no play
-NO      all work and no play
-PLAY    all work and no play
-MAKES   all work and no play
-JACK    all work and no play
-A       all work and no play
-DULL    all work and no play
-BOY     all work and no play
+,`DULL BOY       all         DULL BOY
+DULL BOY       work        DULL BOY
+DULL BOY       and         DULL BOY
+DULL BOY       no          DULL BOY
+DULL BOY       play        DULL BOY
+DULL BOY       makes       DULL BOY
+DULL BOY       jack        DULL BOY
+DULL BOY       a           DULL BOY
+DULL BOY       dull        DULL BOY
+DULL BOY       boy         DULL BOY
 `
 ,`     work                                            
                                                 boy  
@@ -508,86 +442,61 @@ All
                     play                             
                                  Jack                
 `
-,`all work and no play
-all work and no play
-all work and no play
-all work and no play
-all work and no play
-all work and no play
-all work and no play
-                          makes jack
-                          a dull boy`
-,`DULL BOY       all         DULL BOY
-DULL BOY       work        DULL BOY
-DULL BOY       and         DULL BOY
-DULL BOY       no          DULL BOY
-DULL BOY       play        DULL BOY
-DULL BOY       makes       DULL BOY
-DULL BOY       jack        DULL BOY
-DULL BOY       a           DULL BOY
-DULL BOY       dull        DULL BOY
-DULL BOY       boy         DULL BOY
+,`
+
+
+ ALL
+
+
+    work and no play makes jack a dull boy`
+,`                           JACK
+all work and no play makes      a dull boy
+                           JACK
+                           JACK
+                           JACK
+                           JACK
+                           JACK
 `
-,`all work and no PLAY makes jack a dull boy
+,`all work
+
+
+         AND
+
+
+             no play makes jack a dull boy`
+,`ALL WORK       all         DULL BOY
+ALL WORK       work        DULL BOY
+ALL WORK       and         DULL BOY
+ALL WORK       no          DULL BOY
+ALL WORK       play        DULL BOY
+ALL WORK       makes       DULL BOY
+ALL WORK       jack        DULL BOY
+ALL WORK       a           DULL BOY
+ALL WORK       dull        DULL BOY
+ALL WORK       boy         DULL BOY
 `
-,`   ALL   ALL   ALL   ALL   ALL   ALL   ALL   ALL   ALL   ALL
-  WORK  WORK  WORK  WORK  WORK  WORK  WORK  WORK  WORK  WORK
-   AND   AND   AND   AND   AND   AND   AND   AND   AND   AND
-    NO    NO    NO    NO    NO    NO    NO    NO    NO    NO
-  PLAY  PLAY  PLAY  PLAY  PLAY  PLAY  PLAY  PLAY  PLAY  PLAY
- MAKES MAKES MAKES MAKES MAKES MAKES MAKES MAKES MAKES MAKES
-  JACK  JACK  JACK  JACK  JACK  JACK  JACK  JACK  JACK  JACK
-     A     A     A     A     A     A     A     A     A     A
-  DULL  DULL  DULL  DULL  DULL  DULL  DULL  DULL  DULL  DULL
-   BOY   BOY   BOY   BOY   BOY   BOY   BOY   BOY   BOY   BOY
+,`ALLALLALLALLALLALLALLALLALLALL
+WORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+ANDANDANDANDANDANDANDANDANDAND
+NONONONONONONONONONO
+PLAYPLAYPLAYPLAYPLAYPLAYPLAYPLAYPLAYPLAY
+MAKESMAKESMAKESMAKESMAKESMAKESMAKESMAKESMAKESMAKES
+JACKJACKJACKJACKJACKJACKJACKJACKJACKJACK
+AAAAAAAAAA
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+BOYBOYBOYBOYBOYBOYBOYBOYBOYBOY
 `
-,`allworkandnoplaymakesjackadullboy
-allworkandnoplaymakesjackadullboy
-allworkandnoplaymakesjackadullboy
-allworkandnoplaymakesjackadullboy
-allworkandnoplaymakesjackadullboy
-allworkandnoplaymakesjackadullboy
-allworkandnoplaymakesjackadullboy
-allworkandnoplaymakesjackadullboy
+,`    WORK
+    WORK
+    WORK
+    WORK
+all      and no      makes jack a dull boy
+                PLAY
+                PLAY
+                PLAY
+                PLAY
 `
-,`all work and no play        ALL
-all work and no play        WORK
-all work and no play        AND
-all work and no play        NO
-all work and no play        PLAY
-all work and no play        MAKES
-all work and no play        JACK
-all work and no play        A
-all work and no play        DULL
-all work and no play        BOY
-`
-,`all
-work
-and
-no
-play
-makes
-jack
-a
-dull
-boy
-`
-,`all WORK AND NO PLAY makes jack a DULL BOY
-all work AND NO play MAKES jack A dull boy
-all WORK AND NO play makes jack a dull boy
-`
-,`all work and no play
-                      MAKES
-all work and no play
-                      JACK
-all work and no play
-                      A
-all work and no play
-                      DULL
-all work and no play
-                      BOY
-`
-,`ALL WORK AND NO play MAKES JACK A DULL BOY
+,`ALL WORK AND NO PLAY MAKES JACK A dull BOY
 `
 ,`aLlWorkandnOpLAYmaKesjaCKadUlLBOy
 
@@ -598,68 +507,16 @@ aLLwoRkanDNoPlaYmakesJaCkAdullboy
 AlLWOrKanDNOPLaYmaKEsJaCKadULlBoy
 
 `
-,`all work and no play makes jack a DULL boy
+,`ALL WORK AND NO PLAY MAKES JACK a DULL BOY
+`
+,`ALL WORK and NO PLAY MAKES jack A DULL boy
+all WORK and no PLAY MAKES JACK A dull boy
+all work AND no play MAKES JACK A DULL BOY
+all WORK and no PLAY makes JACK A DULL boy
+ALL work and NO PLAY MAKES JACK a DULL boy
+ALL work AND no play makes JACK A dull boy
 `
 ,`all work and no play makes jack A dull boy
-`
-,`all work and no play
-makes jack
-
-
-                          a dull boy
-                          a dull boy
-                          a dull boy
-                          a dull boy
-                          a dull boy
-                          a dull boy
-`
-,`all work and no PLAY MAKES JACK A DULL BOY
-all work AND no play MAKES JACK A dull BOY
-all WORK AND no play MAKES jack A dull BOY
-ALL work AND NO play MAKES jack A DULL BOY
-`
-,`ALL WORK AND NO PLAY MAKES JACK A dull BOY
-`
-,`All work
-All work
-All work
-All work
-All work
-All work
-All work and no play makes Jack a dull boy
-`
-,`all   ALL   ALL               all   all   all   ALL   all   
-work  work  work        work  WORK  work  work        work  
-and               and         and   and   and               
-no    NO    NO          NO    no    NO    NO    NO    no    
-      PLAY                          PLAY  PLAY  play  PLAY  
-      makes MAKES MAKES       makes                   MAKES 
-            jack  jack  JACK              JACK  jack  jack  
-      a                 a     a     A     a     a           
-      dull        dull  dull  DULL        dull  DULL        
-boy   boy                     BOY   boy         boy   boy   
-`
-,`all work and no play MAKES jack a dull boy
-`
-,`all   all   ALL               all   all   all   all         
-work  WORK  WORK  work  WORK  work  WORK  WORK  work  work  
-      and         and   and   and   AND         AND         
-      no          no    no    no    no          no    NO    
-PLAY  PLAY  PLAY  play  play  PLAY  play  play              
-makes MAKES       MAKES makes       makes makes       makes 
-      JACK  jack  jack  JACK  jack  jack  jack        jack  
-A     A     a     A     A                 A           a     
-DULL        dull        dull  dull                    dull  
-                  boy   boy   boy   BOY         boy   BOY   
-`
-,`ALL WORK AND NO PLAY makes JACK A DULL BOY
-`
-,`all work        all work        all work        all work        all work        
-and no play     and no play     and no play     and no play     and no play     
-makes jack      makes jack      makes jack      makes jack      makes jack      
-a dull boy      a dull boy      a dull boy      a dull boy      a dull boy      
-`
-,`ALL WORK AND NO PLAY MAKES JACK a DULL BOY
 `
 ,`All work and no play                 makes
 All work and no play            makes Jack
@@ -678,4 +535,147 @@ All work and no play makes Jack a
 All work and no play makes Jack a dull
 All work and no play makes Jack a dull boy
 `
-,`alL wOrk aNd No plaY MAKeS JaCK A DULL BOy`]
+,`all work and no play        ALL
+all work and no play        WORK
+all work and no play        AND
+all work and no play        NO
+all work and no play        PLAY
+all work and no play        MAKES
+all work and no play        JACK
+all work and no play        A
+all work and no play        DULL
+all work and no play        BOY
+`
+,`all WORK AND NO play makes jack a dull boy
+ALL WORK and no PLAY MAKES JACK A DULL boy
+ALL WORK AND no play MAKES jack a dull boy
+all work AND NO play MAKES jack a DULL BOY
+`
+,`     All work and no play makes Jack a dull boy
+          All work and no play makes Jack a dull boy
+          All work and no play makes Jack a dull boy
+     All work and no play makes Jack a dull boy
+    All work and no play makes Jack a dull boy
+`
+,`      all   all   all         all         ALL   all   all   
+WORK  work  work        work  work  work  WORK  WORK  work  
+and         and   AND   and   and         AND               
+      no    no    no          no    no    NO          no    
+      play  play  play        play        play  play  play  
+makes       MAKES             makes MAKES       MAKES       
+      jack  JACK              jack        JACK  JACK  JACK  
+a     a     a     A     a           a     A     a           
+      dull  dull  dull                    dull  DULL        
+            boy         boy               boy   boy   boy   
+`
+,`ALL WORK AND NO play MAKES JACK A DULL BOY
+`
+,`                     MAKES
+                     MAKES
+                     MAKES
+                     MAKES
+                     MAKES
+all work and no play       jack a dull boy
+                     MAKES
+`
+,`DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+ all work and no play makes jack a dull boy
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+`
+,` All work and no play makes Jack a dull boy
+         All work and no play makes Jack a dull boy
+          All work and no play makes Jack a dull boy
+`
+,`                                A
+                                A
+                                A
+                                A
+all work and no play makes jack   dull boy
+                                A
+                                A
+`
+,`WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+ all work and no play makes jack a dull boy
+WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+WORKWORKWORKWORKWORKWORKWORKWORKWORKWORKWORK
+`
+,`ALL WORK AND NO play MAKES jack A DULL BOY
+ALL work AND no play MAKES jack a DULL boy
+ALL work and no PLAY MAKES JACK A dull BOY
+ALL WORK and no play MAKES jack a DULL boy
+all WORK AND no play makes JACK A DULL BOY
+`
+,`      All work and no play makes Jack a dull boy
+       All work and no play makes Jack a dull boy
+         All work and no play makes Jack a dull boy
+   All work and no play makes Jack a dull boy
+   All work and no play makes Jack a dull boy
+         All work and no play makes Jack a dull boy
+  All work and no play makes Jack a dull boy
+    All work and no play makes Jack a dull boy
+      All work and no play makes Jack a dull boy
+         All work and no play makes Jack a dull boy
+         All work and no play makes Jack a dull boy
+     All work and no play makes Jack a dull boy
+`
+,`ALL WORK AND NO PLAY MAKES JACK A DULL boy
+`
+,`DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+ all work and no play makes jack a dull boy
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+DULLDULLDULLDULLDULLDULLDULLDULLDULLDULLDULL
+`
+,`all work and no play
+all work and no play
+all work and no play
+all work and no play
+all work and no play
+all work and no play
+all work and no play
+                          makes jack
+                          a dull boy`
+,`ALL work and no play makes jack a dull boy
+`
+,`all   ALL   ALL               all   all   all   ALL   all   
+work  work  work        work  WORK  work  work        work  
+and               and         and   and   and               
+no    NO    NO          NO    no    NO    NO    NO    no    
+      PLAY                          PLAY  PLAY  play  PLAY  
+      makes MAKES MAKES       makes                   MAKES 
+            jack  jack  JACK              JACK  jack  jack  
+      a                 a     a     A     a     a           
+      dull        dull  dull  DULL        dull  DULL        
+boy   boy                     BOY   boy         boy   boy   
+`
+,`all WORK AND NO PLAY makes jack a DULL BOY
+all work AND NO play MAKES jack A dull boy
+all WORK AND NO play makes jack a dull boy
+`
+,`all work AND no play makes jack a dull boy
+`
+,`         AND
+         AND
+         AND
+         AND
+         AND
+         AND
+all work     no play makes jack a dull boy
+`
+,`I could really use a drink.`]
