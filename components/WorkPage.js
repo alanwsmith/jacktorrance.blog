@@ -92,12 +92,15 @@ export default function WorkPage({ page }) {
     )
   }
 
+  const pageText =
+    page > 666 ? '[ this space intentionally left blank ]' : pages[page]
+
   return (
     <>
       <div className="flex flex-col h-screen">
         <Header />
         <div className="flex-grow pb-28" id="container">
-          <pre className="text-md">{pages[page]}</pre>
+          <pre className="text-md">{pageText}</pre>
         </div>
         <div className="pb-20 text-sm text-center text-gray-800">{pageNav}</div>
       </div>
