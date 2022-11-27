@@ -2,10 +2,13 @@ import Link from 'next/link'
 import { useEffect } from 'react'
 import { pages } from './Pages'
 import Header from './Header'
+import { useRouter } from 'next/router'
 
 export default function WorkPage({ page }) {
+  const router = useRouter()
   const baseNum = parseInt(page, 10)
 
+  // Not sure if this is still being used
   function jumpPage() {
     var pageToJumpTo = Math.floor(Math.random() * pages.length)
     if (pageToJumpTo === 0) {
@@ -21,6 +24,46 @@ export default function WorkPage({ page }) {
       window.location.href = `/${pageToJumpTo}`
     }
   }
+
+  const keyUpHandler = (e) => {
+    console.log(router.query)
+    const currentPage = parseInt(router.query.page)
+    if (e.key.toLowerCase() === 'arrowright') {
+      console.log(currentPage)
+
+      // if (currentPage < pages.length - 1) {
+      //   router.push(`/${currentPage + 1}`)
+      // }
+
+      // setCurrentPage((initialPage) => {
+      //   if (initialPage < maxPage) {
+      //     const nextPage = initialPage + 1
+      //     router.push(`/navigate-with-arrow-keys--2i8sk2uskqfa/${nextPage}`)
+      //     return nextPage
+      //   } else {
+      //     return initialPage
+      //   }
+      // })
+    } else if (e.key.toLowerCase() === 'arrowleft') {
+      console.log('got left')
+      // setCurrentPage((initialPage) => {
+      //   if (initialPage > minPage) {
+      //     const prevPage = initialPage - 1
+      //     router.push(`/navigate-with-arrow-keys--2i8sk2uskqfa/${prevPage}`)
+      //     return prevPage
+      //   } else {
+      //     return initialPage
+      //   }
+      // })
+    }
+  }
+
+  useEffect(() => {
+    document.addEventListener('keyup', keyUpHandler)
+    return () => {
+      document.addEventListener('keyup', keyUpHandler)
+    }
+  }, [])
 
   var pageNav
   if (baseNum === 1) {
