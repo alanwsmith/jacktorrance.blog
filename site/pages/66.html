@@ -30,32 +30,97 @@
     />
 
     <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      * {
+        margin: 0;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        line-height: 1.3;
+        -webkit-font-smoothing: antialiased;
+      }
+      img,
+      picture,
+      video,
+      canvas,
+      svg {
+        display: block;
+        max-width: 100%;
+      }
+      input,
+      button,
+      textarea,
+      select {
+        font: inherit;
+      }
+      p,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        overflow-wrap: break-word;
+      }
+      #root,
+      #__next {
+        isolation: isolate;
+      }
+
       html,
       body {
         width: 100%;
         height: 100%;
         margin: 0;
         font-family: monospace;
+        background-color: #777;
       }
+
       #wrapper {
         display: grid;
         grid-template-rows: auto 1fr auto;
         grid-template-columns: 100%;
         min-height: 100%;
       }
+
       main {
+        height: 100%;
+        line-height: 1.5rem;
         justify-self: center;
         align-self: center;
+        display: grid;
+        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-columns: 100%;
       }
+
       footer {
         justify-self: center;
       }
-      #content {
-        min-width: 600px;
-        outline: solid;
+
+      #theWords {
+        display: inline-block;
+        justify-self: center;
+        align-self: center;
       }
-      prex {
-        outline: solid red;
+
+      #pageNav {
+        font-family: monospace;
+        text-align: center;
+      }
+
+      #footerLinks {
+        text-align: center;
+      }
+
+      #spacer {
       }
     </style>
   </head>
@@ -69,8 +134,8 @@
         <a href="https://hachyderm.io/@TheIdOfAlan">mastodon</a>
       </header>
       <main>
-        <pre>
-All worK anD No pLaY makES JAck a dulL boy 
+        <div id="spacer"></div>
+        <pre id="theWords">All worK anD No pLaY makES JAck a dulL boy 
 aLl                                        
 AlL                                        
 AlL                                        
@@ -79,13 +144,11 @@ ALl
 aLL                                        
 aLl                                        
 AlL                                        
-AlL                                        
-        </pre>
+AlL                                        </pre>
+        <p id="pageNav"><a href="/pages/2.html">prev</a>&nbsp;&nbsp;&nbsp;Page&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;<a href="/pages/3.html">next</a></p>
       </main>
       <footer>
-        <p>Nav stuff for the book here</p>
-        <p></p>
-        <div>
+        <div id="footerLinks">
           from <a href="https://hachyderm.io/@TheIdOfAlan">alan w. smith</a>
           <br />
           who has a <a href="https://www.alanwsmith.com">website</a> and a
