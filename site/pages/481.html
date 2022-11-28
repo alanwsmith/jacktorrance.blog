@@ -81,72 +81,110 @@
         height: 100%;
         margin: 0;
         font-family: monospace;
-        background-color: #777;
+        background-color: #fff;
+        font-size: 0.9rem;
       }
 
       #wrapper {
         display: grid;
         grid-template-rows: auto 1fr auto;
         grid-template-columns: 100%;
-        min-height: 100%;
+        height: min(98%, 560px);
+      }
+
+      header {
+        padding-top: 16px;
+        text-align: center;
+        background-color: #fff;
       }
 
       main {
-        height: 100%;
+        margin-top: 2rem;
         line-height: 1.5rem;
         justify-self: center;
         align-self: center;
         display: grid;
-        grid-template-rows: 1fr 2fr 1fr;
-        grid-template-columns: 100%;
+        min-height: 21rem;
+        background-color: #fff;
       }
 
       footer {
         justify-self: center;
+        background-color: #fff;
       }
 
       #theWords {
         display: inline-block;
         justify-self: center;
         align-self: center;
+        background-color: #fff;
       }
 
       #pageNav {
+        padding-top: 2.1rem;
         font-family: monospace;
         text-align: center;
+        margin-bottom: 4rem;
+        background-color: #fff;
       }
 
       #footerLinks {
         text-align: center;
       }
 
-      #spacer {
+      a {
+        color: #8a0303;
+        text-decoration: none;
+      }
+
+      #randomButton {
+        border-top: 1px solid #8a0303;
+        border-bottom: 1px solid #8a0303;
+        border-left: 0;
+        border-right: 0;
+        background-color: white;
+        border-top: 0;
+        border-bottom: 0;
+      }
+      .gray {
+        color: #ccc;
+      }
+      button {
+        cursor: pointer;
       }
     </style>
+    <script>
+      const handleRandom = () => {
+        const pageNum = Math.floor(Math.random() * 665) + 1
+        window.location.href = `/pages/` + pageNum + `.html`
+      }
+
+      const init = () => {
+        document
+          .getElementById('randomButton')
+          .addEventListener('click', handleRandom)
+      }
+      document.addEventListener('DOMContentLoaded', init)
+    </script>
   </head>
   <body>
     <div id="wrapper">
       <header>
-        <a href="/">Home</a> ~
+        from
+        <a href="https://hachyderm.io/@TheIdOfAlan">alan w. smith</a><br />
+        <a href="/">cover page</a> ~
+        <a href="/">cover page</a> ~
         <a href="https://www.alanwsmith.com/">main site</a> ~
         <a href="https://links.alanwsmith.com">other sites</a> ~
-        <a href="https://podcast.alanwsmith.com">podcast</a> ~
-        <a href="https://hachyderm.io/@TheIdOfAlan">mastodon</a>
+        <a href="https://podcast.alanwsmith.com">podcast</a>
       </header>
       <main>
-        <div id="spacer"></div>
         <pre id="theWords">             no play makes jack a dull boy</pre>
-        <p id="pageNav"><a href="/pages/2.html">prev</a>&nbsp;&nbsp;&nbsp;Page&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;<a href="/pages/3.html">next</a></p>
       </main>
-      <footer>
-        <div id="footerLinks">
-          from <a href="https://hachyderm.io/@TheIdOfAlan">alan w. smith</a>
-          <br />
-          who has a <a href="https://www.alanwsmith.com">website</a> and a
-          <a href="https://podcast.alanwsmith.com/">podcast</a> <br />
-          among <a href="https://links.alanwsmith.com">other things</a>
-        </div>
-      </footer>
+      <p id="pageNav">
+        <a href="/pages/480.html">prev</a>&nbsp;&nbsp;&nbsp;Page481&nbsp;&nbsp;&nbsp;<a href="/pages/482.html">next</a><br /><br />
+        <button id="randomButton">Random Page</button>
+      </p>
     </div>
   </body>
 </html>

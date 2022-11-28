@@ -1,0 +1,10 @@
+  ALL    makes       play    play play       a play
+ WORK      makes   no    dull   a      a    a     and
+  AND   dull    dull       a  no      boy      jack
+   NO       work    no makes  dull   and jack      play
+ PLAY     play      makes     a    dull     no     play
+MAKES     a       makes no     all    boy    dull
+ JACK      a   a     jack       no   play      makes
+    A        play dull  dull       boy       and
+ DULL       jack       play   and    all  no   a
+  BOY  play     a dull       and   work       makes

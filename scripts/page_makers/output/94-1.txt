@@ -1,0 +1,15 @@
+work         and   all    work  
+dull        work dull       
+a         play        makes         
+a       jack     play        
+jack        makes boy          
+dull       a        a     work   
+no play     work        makes       
+
+              ALL WORK AND NO PLAY MAKES JACK A DULL BOY
+
+all          boy      makes   
+work        and play makes        
+all         and     boy     
+a          no      work       
+a   makes          dull          

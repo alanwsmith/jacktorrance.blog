@@ -1,0 +1,9 @@
+                PLAY MAKES        BOY  BOY         WORK
+
+aLL wORK aND nO pLAY mAKES jACK a dULL bOY
+
+                  PLAY          DULL   WORK  WORK
+                  AND       MAKES   PLAY   MAKES
+                WORK NO          NO   WORK   PLAY
+                      ALL    BOY      WORK         PLAY
+                     WORK    DULL  WORK    ALL  MAKES

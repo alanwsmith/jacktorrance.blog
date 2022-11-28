@@ -1,0 +1,10 @@
+ALL                      ALL  
+WORK                     WORK 
+AND                      AND  
+NO                       NO   
+PLAY                     PLAY 
+MAKES                    MAKES
+JACK                     JACK 
+A                        A    
+DULL                     DULL 
+BOY                      BOY  

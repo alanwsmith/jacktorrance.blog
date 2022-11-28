@@ -1,0 +1,10 @@
+a     a     a     a     a     a     a      ALL
+a     a     a     a     a     a     a      WORK
+a     a     a     a     a     a     a      AND
+a     a     a     a     a     a     a      NO
+a     a     a     a     a     a     a      PLAY
+a     a     a     a     a     a     a      MAKES
+a     a     a     a     a     a     a      JACK
+a     a     a     a     a     a     a      A
+a     a     a     a     a     a     a      DULL
+a     a     a     a     a     a     a      BOY

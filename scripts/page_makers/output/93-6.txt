@@ -1,0 +1,9 @@
+              MAKES       BOY   NO        ALL         
+              MAKES     WORK MAKES      WORK     
+              PLAY DULL  JACK BOY        JACK BOY    
+              JACK       DULL      NO     WORK         
+              DULL          ALL  WORK    MAKES          
+
+all work and no play makes jack a dull boy
+
+              AND     NO         PLAY  DULL JACK          

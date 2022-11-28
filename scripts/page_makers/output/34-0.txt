@@ -1,0 +1,10 @@
+ALL WORK       all         DULL BOY
+ALL WORK       work        DULL BOY
+ALL WORK       and         DULL BOY
+ALL WORK       no          DULL BOY
+ALL WORK       play        DULL BOY
+ALL WORK       makes       DULL BOY
+ALL WORK       jack        DULL BOY
+ALL WORK       a           DULL BOY
+ALL WORK       dull        DULL BOY
+ALL WORK       boy         DULL BOY
