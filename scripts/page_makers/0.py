@@ -42,7 +42,7 @@ All work and no play makes Jack a dull boy'''
 
 
 for index, content in enumerate(contents):
-    output_path = os.path.join(output_dir, f"00-{index}.txt")
+    output_path = os.path.join(output_dir, f"0-{index}.txt")
     with open(output_path, 'w') as _out:
         _out.write(content)
 

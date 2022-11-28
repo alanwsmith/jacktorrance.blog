@@ -14,25 +14,25 @@ words_upper = [x.upper() for x in words]
 
 def get_output():
     output = ''
-    for i in range(0,5):
+    for i in range(0,3):
         if i == 0 or i == 2 or i == 4:
             output += f"{' '.join(words_upper[:2])}        "
         else:
             output += f"{' '.join(words_lower[:2])}        "
     output += "\n"
-    for i in range(0,5):
+    for i in range(0,3):
         if i == 0 or i == 2 or i == 4:
             output += f"{' '.join(words_upper[2:5])}     "
         else:
             output += f"{' '.join(words_lower[2:5])}     "
     output += "\n"
-    for i in range(0,5):
+    for i in range(0,3):
         if i == 0 or i == 2 or i == 4:
             output += f"{' '.join(words_upper[5:7])}      "
         else:
             output += f"{' '.join(words_lower[5:7])}      "
     output += "\n"
-    for i in range(0,5):
+    for i in range(0,3):
         if i == 0 or i == 2 or i == 4:
             output += f"{' '.join(words_upper[7:10])}      "
         else:

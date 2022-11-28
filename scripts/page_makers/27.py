@@ -16,7 +16,7 @@ def get_output(file_number):
     output = ''
 
     for i in range(0, 10):
-        for x in range(0, 10):
+        for x in range(0, 7):
             output += " " *  (6 - len(words_upper[i]))
             output += words_upper[i]
         output += "\n"

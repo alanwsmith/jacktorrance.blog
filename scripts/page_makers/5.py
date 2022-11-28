@@ -10,7 +10,7 @@ words = ['All', 'work', 'and', 'no', 'play', 'makes', 'Jack', 'a', 'dull', 'boy'
 
 def get_output():
     output = ''
-    line_count = randint(3,6)
+    line_count = randint(3,4)
     for line_num in range(0, line_count):
         newList = []
         for word in words:

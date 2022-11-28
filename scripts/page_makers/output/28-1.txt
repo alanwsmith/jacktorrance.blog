@@ -1,10 +1,10 @@
-      all   all   all         all         ALL   all   all   
-WORK  work  work        work  work  work  WORK  WORK  work  
-and         and   AND   and   and         AND               
-      no    no    no          no    no    NO          no    
-      play  play  play        play        play  play  play  
-makes       MAKES             makes MAKES       MAKES       
-      jack  JACK              jack        JACK  JACK  JACK  
-a     a     a     A     a           a     A     a           
-      dull  dull  dull                    dull  DULL        
-            boy         boy               boy   boy   boy   
+all   all   all                     
+WORK        work  work  work  work  
+and   and         and         and   
+no          no                      
+play  PLAY  play  play  play  play  
+makes makes makes makes MAKES makes 
+      jack        JACK  jack  JACK  
+      A           a     a     a     
+dull        DULL  dull  DULL  dull  
+      BOY                     BOY   

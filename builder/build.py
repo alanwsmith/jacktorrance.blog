@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 
+import glob
 import json
+import sys
 
 from string import Template
 
+script_dir = sys.path[0]
 
 class PageBuilder():
 
@@ -15,6 +18,10 @@ class PageBuilder():
 
 
     def data(self):
+
+
+
+
         with open('src/data.js') as _data:
             data = _data.read()
             return data.split("`\n,`")
@@ -63,8 +70,8 @@ class PageBuilder():
                 character_count = len(line)
                 max_length = max(max_length, character_count)
 
-            if max_length > 58:
-                print(f"{index} - {max_length}")
+            # if max_length > 58:
+            #     print(f"{index} - {max_length}")
 
 
 

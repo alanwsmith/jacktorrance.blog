@@ -16,7 +16,7 @@ def get_output(file_number):
     output = ''
 
     for i in range(0, 10):
-        for x in range(0, 10):
+        for x in range(0, 6):
             trigger = randint(0,2)
             case = randint(0,2)
             if trigger == 1:
