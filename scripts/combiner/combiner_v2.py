@@ -9,7 +9,7 @@ source_dir = os.path.abspath(os.path.join(
     script_dir, '..', 'page_makers', 'output'
 ))
 
-for i in range(1, 100):
+for i in range(1, 123):
     files = [
         file for file in glob.glob(f"{source_dir}/{i}-*")
     ]

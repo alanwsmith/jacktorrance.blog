@@ -1,10 +1,10 @@
-   no                          no     no     no         dull      no  
-          no                          no            no     no  boy    
-all                                   no            no     no         
-   no         and       no                   no                   no  
-                 no     no  play      no     no                   no  
-   no     no     no                makes                   no     no  
-   no     no         no               no     no            no         
-   no  work      no            no                                 no  
-   no                          no                a                no  
-                                      no  jack      no                
+     WORK         no   no        no   no   no   no
+        no   no     PLAY         no   no   no   no
+ALL     no   no        no        no        no   no
+          AND               no   no   no   no   no
+                  no   no   noJACK                
+   no   no        no   no   no             noBOY  
+   no   no   no   no   noMAKES   no   no   no   no
+   no   no   no   no   no   no   no     DULL    no
+   no        no   no   no   no     A            no
+   no   no   noNO           no        no          

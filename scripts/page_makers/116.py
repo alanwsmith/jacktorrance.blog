@@ -90,9 +90,9 @@ def get_output(file_number):
         line = ""
         for word_index in range(0, 10):
             if word_index == positions[line_index]: 
-                line += ' ' + word_sets['lower_padded_r_6'][word_index] + ' '
+                line += '' + word_sets['lower_padded_r_5'][word_index] + ''
             else:
-                line += word_sets['upper_padded_l_6'][file_number] + '  '
+                line += word_sets['upper_padded_l_5'][file_number] + ''
         lines.append(line)
 
 

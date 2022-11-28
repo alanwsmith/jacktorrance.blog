@@ -72,11 +72,11 @@ def get_output(file_number):
         lines.append('')
 
     for i in range(0, len(lines)):
-        while len(lines[i]) < 38:
+        while len(lines[i]) < 23:
             lines[i] += " " * randint(1, 4)
             lines[i] += word_sets['lower'][randint(0,len(word_sets['upper']) - 1)]
 
-        lines[i] = lines[i].ljust(55)
+        lines[i] = lines[i].ljust(40)
         lines[i] += word_sets['upper_padded_l_5'][i]
     output = "\n".join(lines)
 

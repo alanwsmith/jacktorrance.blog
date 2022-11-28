@@ -1,10 +1,10 @@
-         all    all                  all  jack     all    all         
-         all                  all                         all  boy    
-         all         no       all                  all           all  
-  all           all    all  play            all           all    all  
-all                           all           all    all    all    all  
-         all                  all    all           all  dull          
-       work            all                                       all  
-         all    all    all    all  makes                  all    all  
-         all    all                  all         a               all  
-              and             all           all    all    all         
+            allNO     all  all  all            all
+  allWORK   all            all            all  all
+            all  all            allA      all     
+       all            all  all  all       allBOY  
+       all       all  allMAKES  all       all  all
+                           allJACK   all       all
+                    PLAY             all          
+  all       all       all  all  all     DULL      
+ALL         all       all       all  all  all  all
+  all     AND              all  all               
