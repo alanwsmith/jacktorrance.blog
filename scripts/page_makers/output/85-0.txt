@@ -1,10 +1,10 @@
-ALL      all work and no play makes jack a dull boy    ALL  
-WORK     all work and no play makes jack a dull boy    WORK 
-AND      all work and no play makes jack a dull boy    AND  
-NO       all work and no play makes jack a dull boy    NO   
-PLAY     all work and no play makes jack a dull boy    PLAY 
-MAKES    all work and no play makes jack a dull boy    MAKES
-JACK     all work and no play makes jack a dull boy    JACK 
-A        all work and no play makes jack a dull boy    A    
-DULL     all work and no play makes jack a dull boy    DULL 
-BOY      all work and no play makes jack a dull boy    BOY  
+  ALL  no play makes jack a dull  ALL  
+ WORK  no play makes jack a dull  WORK 
+  AND  no play makes jack a dull  AND  
+   NO  no play makes jack a dull  NO   
+ PLAY  no play makes jack a dull  PLAY 
+MAKES  no play makes jack a dull  MAKES
+ JACK  no play makes jack a dull  JACK 
+    A  no play makes jack a dull  A    
+ DULL  no play makes jack a dull  DULL 
+  BOY  no play makes jack a dull  BOY  

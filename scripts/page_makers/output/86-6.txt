@@ -1,8 +1,11 @@
-  jack         jack       jack      jack  jack         jack
-          jack          jack   jack jack        jack
-        jack          jack      jack   jack      jack
-  jack        jack          jack    jack   jack      jack
+  jack    jack     jack    jack     jack
+          jack      jack  jack       jack
+  jack    jack  jack  jack jack      jack
+    jack          jack        jack       jack
+        jack    jack        jack     jack
 
-        ALL WORK AND NO PLAY MAKES JACK A DULL BOY
+  ALL WORK AND NO PLAY MAKES JACK A DULL BOY
 
-    jack      jack     jack         jack       jack
+    jack        jack         jack     jack
+         jack         jack  jack jack      jack
+      jack      jack jack        jack jack

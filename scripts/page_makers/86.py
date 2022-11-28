@@ -71,7 +71,7 @@ def get_output(file_number):
     scatter_lines = []
     for i in range(0, total_lines):
         new_line = ""
-        while len(new_line) < 48:
+        while len(new_line) < 40:
             new_line += " " * randint(1, 10)
             new_line += word_sets['lower'][file_number]
         scatter_lines.append(new_line)
