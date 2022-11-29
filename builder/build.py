@@ -46,7 +46,7 @@ class PageBuilder():
         next_link = '234343'
         display_num = '234343'
         links = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cover&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/pages/1.html">next</a>'
-        random = '<button id="randomButton">hint: the arrow keys work</button>'
+        random = '<button>hint: the arrow keys work</button>'
         cover = "cover page"
         next_num = 1
 
