@@ -1,10 +1,10 @@
-A       A       A            no A       A       A       A       A       A       
-A       A       A       A       A       A          jack A       A       A       
-A       A       A       A       A       A       A       A       A           boy 
-A       A       A       A          play A       A       A       A       A       
-    all A       A       A       A       A       A       A       A       A       
-A       A       A       A       A       A       A       A          dull A       
-A       A           and A       A       A       A       A       A       A       
-A       A       A       A       A         makes A       A       A       A       
-A          work A       A       A       A       A       A       A       A       
-A       A       A       A       A       A       A             a A       A       
+A    A    A       noA    A    A    A    A    A    
+A    A    A    A    A    A    A        aA    A    
+A    A      andA    A    A    A    A    A    A    
+A    A    A    A    A    A    A    A    A      boy
+A    A    A    A     playA    A    A    A    A    
+A    A    A    A    A    makesA    A    A    A    
+A    A    A    A    A    A     jackA    A    A    
+A     workA    A    A    A    A    A    A    A    
+  allA    A    A    A    A    A    A    A    A    
+A    A    A    A    A    A    A    A     dullA    

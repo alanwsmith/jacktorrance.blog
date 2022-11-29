@@ -19,7 +19,7 @@ def random_case_word_list():
 
 # Basic sentence with different cases for the words
 def straight(*, case='default'):
-    return " ".join(word_sets[case]) 
+    return " ".join(word_sets[case][3:-1]) 
 
 
 # build a list with each 
@@ -67,10 +67,10 @@ def get_output(file_number):
     output = ''
     for i in range(0, 10):
         for x in range(0, file_number + 1):
-            output += word_sets['upper_padded_l_5'][i] 
-            output += '    '
+            output += word_sets['upper_padded_r_5'][i] 
+            output += '  '
             output += straight(case='lower')
-            output += '    '
+            output += '  '
             output += word_sets['upper_padded_l_5'][i] 
         output += "\n"
 
@@ -80,6 +80,7 @@ def get_output(file_number):
 
 if __name__ == '__main__':
     word_sets = {}
+    word_sets['default'] = ['All', 'work', 'and', 'no', 'play', 'makes', 'Jack', 'a', 'dull', 'boy']
     word_sets['default'] = ['All', 'work', 'and', 'no', 'play', 'makes', 'Jack', 'a', 'dull', 'boy']
     word_sets['upper'] = [x.upper() for x in word_sets['default']]
     word_sets['lower'] = [x.lower() for x in word_sets['default']]

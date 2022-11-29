@@ -1,9 +1,15 @@
-                PLAY MAKES        BOY  BOY         WORK
+                  PLAY          MAKES    BOY
+                PLAY         AND   JACK       WORK
+                        JACK      MAKES      ALL
+                      BOY      NO         MAKES
+                 JACK         NO          AND
+                  DULL         JACK         MAKES
+                     WORK    JACK         NO
+                 JACK       MAKES   WORK
+                        AND A  DULL  NO        DULL
 
 aLL wORK aND nO pLAY mAKES jACK a dULL bOY
 
-                  PLAY          DULL   WORK  WORK
-                  AND       MAKES   PLAY   MAKES
-                WORK NO          NO   WORK   PLAY
-                      ALL    BOY      WORK         PLAY
-                     WORK    DULL  WORK    ALL  MAKES
+               NO        ALL          A    BOY
+                       PLAY         WORK
+                       NO  WORK A   WORK

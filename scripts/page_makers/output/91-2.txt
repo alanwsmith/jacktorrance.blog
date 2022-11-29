@@ -1,9 +1,9 @@
-                      BOY      PLAY          BOY
-                      AND         PLAY     ALL      PLAY
-                 ALL     BOY       JACK          A
-                  BOY WORK    A   AND      DULL          MAKES
-                 NO      NO    DULL        A   NO
-                NO         DULL     BOY         BOY
+                 JACK          PLAY         DULL
+                     PLAY      MAKES        A
+                      DULL          JACK
+                  MAKES          AND  NO
 
 aLL wORK aND nO pLAY mAKES jACK a dULL bOY
 
+                  PLAY      JACK     MAKES
+                 NO BOY          BOY          BOY

@@ -1,11 +1,11 @@
-                      ALL         JACK        BOY
-               PLAY    ALL PLAY        NO        ALL
-                      MAKES      MAKES         ALL
-               JACK      MAKES        NO       DULL
-                   A     JACK   ALL BOY    JACK      AND
+                    MAKES         AND        MAKES
+               BOY   MAKES          AND       DULL
+                     JACK      JACK        DULL
 
 all work and no play makes jack a dull boy
 
-                 DULL   NO      PLAY          DULL
-                       BOY   JACK  ALL         DULL
-                    AND          ALL         ALL
+                        BOY        DULL      ALL
+                      WORK NO      ALL         MAKES
+                 A  ALL        ALL          PLAY
+                     ALL       A ALL  PLAY
+                      AND    PLAY         AND

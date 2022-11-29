@@ -1,10 +1,10 @@
-  work    boy  a  work  makes play    all              ALL  
- no  a    jack    a    boy    and    boy               WORK 
- makes  play   boy    a   all  a    boy                AND  
- play makes    all and   makes   jack   jack           NO   
-   a    boy    all   makes    makes    play            PLAY 
- dull  a no no    all  no   boy    dull                MAKES
-    all  work jack dull    dull  a makes               JACK 
-  play   makes    and    no and  dull   play           A    
-  jack work   all all  work all  boy    jack           DULL 
- a    no   and  makes   no   all no   makes            BOY  
+    dull    and    makes                ALL  
+    work no    boy    play              WORK 
+  dull    play    work    a             AND  
+  makes   boy  makes    and             NO   
+    dull  a   boy work    all           PLAY 
+    no  dull  jack    jack              MAKES
+  play   no   a  work all               JACK 
+ and    work   makes   jack             A    
+    makes  play   no   and              DULL 
+  a  play  play no  boy                 BOY  

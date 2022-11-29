@@ -79,9 +79,7 @@ def letter_set(case='default'):
 
 
 def get_output(file_number):
-
     lines = []
-
     positions = list(range(0,10))
     random.shuffle(positions)
     print(positions)
@@ -90,12 +88,12 @@ def get_output(file_number):
         line = ""
         for word_index in range(0, 10):
             if word_index == positions[line_index]: 
-                line += word_sets['lower_padded_l_5'][word_index] + '  '
+                line += word_sets['upper_padded_l_5'][word_index] + ''
             else:
                 if not randint(0,1):
-                    line += word_sets['lower_padded_r_5'][file_number] + '  '
+                    line += word_sets['lower_padded_r_5'][file_number] + ''
                 else:
-                    line += word_sets['spaces_padded_l_5'][file_number] + '  '
+                    line += word_sets['spaces_padded_l_5'][file_number] + ''
 
         lines.append(line)
 

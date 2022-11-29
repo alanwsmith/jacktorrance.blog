@@ -72,7 +72,7 @@ def get_output(file_number):
         lines.append(word + ' ')
 
     for i in range(0, len(lines)):
-        while len(lines[i]) < 48:
+        while len(lines[i]) < 40:
             lines[i] += " " * randint(1, 7)
             lines[i] += word_sets['lower'][randint(0,len(word_sets['upper']) - 1)]
 

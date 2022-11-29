@@ -13,16 +13,16 @@ words_lower = [x.lower() for x in words]
 
 def get_output():
     output = ''
-    for i in range(0,5):
+    for i in range(0,3):
         output += f"{' '.join(words_lower[:2])}        "
     output += "\n"
-    for i in range(0,5):
+    for i in range(0,3):
         output += f"{' '.join(words_lower[2:5])}     "
     output += "\n"
-    for i in range(0,5):
+    for i in range(0,3):
         output += f"{' '.join(words_lower[5:7])}      "
     output += "\n"
-    for i in range(0,5):
+    for i in range(0,3):
         output += f"{' '.join(words_lower[7:10])}      "
     output += "\n"
     return output
