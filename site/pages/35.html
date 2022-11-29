@@ -29,6 +29,10 @@
       href="/favicons/180x180.png"
     />
 
+    <link rel="prefetch" href="/pages/34.html" />
+            <link rel="prefetch" href="/pages/36.html" />
+            
+
     <style>
       *,
       *::before,
@@ -154,17 +158,30 @@
       }
     </style>
     <script>
+      const randomPageNum = Math.floor(Math.random() * 665) + 1
+
+      const handleKeyUp = (event) => {
+        const the_key = event.key.toLowerCase()
+        if (the_key === 'arrowright' || the_key === 'arrowdown') {
+          window.location.href = `/pages/` + 36 + `.html`
+        } else if (the_key === 'arrowleft' || the_key === 'arrowup') {
+          window.location.href = `/pages/` + 34 + `.html`
+        }
+      }
       const handleRandom = () => {
-        const pageNum = Math.floor(Math.random() * 665) + 1
-        window.location.href = `/pages/` + pageNum + `.html`
+        window.location.href = `/pages/` + randomPageNum + `.html`
       }
 
       const init = () => {
         document
           .getElementById('randomButton')
           .addEventListener('click', handleRandom)
+        const req = new XMLHttpRequest()
+        req.open('GET', `/pages/` + randomPageNum + `.html`)
+        req.send()
       }
       document.addEventListener('DOMContentLoaded', init)
+      document.addEventListener('keyup', handleKeyUp)
     </script>
   </head>
   <body>
@@ -179,19 +196,17 @@
         <a href="https://podcast.alanwsmith.com">podcast</a>
       </header>
       <main>
-        <pre id="theWords">                              BOY
-                              BOY
-                              BOY
-                              BOY
-                              BOY
-                              BOY
-                              BOY
-                              BOY
-                              BOY
-                              BOY</pre>
+        <pre id="theWords">         AND
+         AND
+         AND
+         AND
+         AND
+         AND
+all work     no play makes jack a dull boy
+</pre>
       </main>
       <p id="pageNav">
-        <a href="/pages/34.html">prev</a>&nbsp;&nbsp;&nbsp;Page&nbsp;35&nbsp;&nbsp;&nbsp;<a href="/pages/36.html">next</a><br /><br />
+        <a href="/pages/34.html">prev</a>&nbsp;&nbsp;&nbsp;Page&nbsp;&nbsp;35&nbsp;&nbsp;&nbsp;<a href="/pages/36.html">next</a><br /><br />
         <button id="randomButton">Random Page</button>
       </p>
     </div>

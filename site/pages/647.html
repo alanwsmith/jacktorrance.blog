@@ -29,6 +29,10 @@
       href="/favicons/180x180.png"
     />
 
+    <link rel="prefetch" href="/pages/646.html" />
+            <link rel="prefetch" href="/pages/648.html" />
+            
+
     <style>
       *,
       *::before,
@@ -154,17 +158,30 @@
       }
     </style>
     <script>
+      const randomPageNum = Math.floor(Math.random() * 665) + 1
+
+      const handleKeyUp = (event) => {
+        const the_key = event.key.toLowerCase()
+        if (the_key === 'arrowright' || the_key === 'arrowdown') {
+          window.location.href = `/pages/` + 648 + `.html`
+        } else if (the_key === 'arrowleft' || the_key === 'arrowup') {
+          window.location.href = `/pages/` + 646 + `.html`
+        }
+      }
       const handleRandom = () => {
-        const pageNum = Math.floor(Math.random() * 665) + 1
-        window.location.href = `/pages/` + pageNum + `.html`
+        window.location.href = `/pages/` + randomPageNum + `.html`
       }
 
       const init = () => {
         document
           .getElementById('randomButton')
           .addEventListener('click', handleRandom)
+        const req = new XMLHttpRequest()
+        req.open('GET', `/pages/` + randomPageNum + `.html`)
+        req.send()
       }
       document.addEventListener('DOMContentLoaded', init)
+      document.addEventListener('keyup', handleKeyUp)
     </script>
   </head>
   <body>
@@ -179,19 +196,16 @@
         <a href="https://podcast.alanwsmith.com">podcast</a>
       </header>
       <main>
-        <pre id="theWords">  all all  dull  all    a no  work    a                ALL  
-   a   dull dull  a    dull    no makes                WORK 
- a makes  work   dull and    no boy   dull             AND  
-    boy  boy    and  jack   makes   work               NO   
- work    makes   and  makes dull a   all               PLAY 
-  all    makes    all   all    and    boy              MAKES
-    all    no dull    all no   work    work            JACK 
- no    and dull   play jack   boy    makes             A    
-    play   and  all  no    work jack    work           DULL 
-    boy work boy makes  and    play  play              BOY  </pre>
+        <pre id="theWords">AALLNOPLAYWORKMAKESJACKNODULLANDANDAWORKMAKESALLAND
+ANDDULLDULLALLANDWORKMAKESWORKBOYMAKESMAKESPLAYPLAY
+ANDPLAYAPLAYAALLNOBOYWORKMAKESJACKJACKBOYWORKJACKNO
+WORKWORK allworkandnoplaymakesjackadullboy DULLPLAY
+WORKDULLANOWORKPLAYDULLMAKESANDWORKALLADULLPLAYDULL
+MAKESMAKESAWORKJACKWORKBOYDULLDULLALLMAKESNOBOYWORK
+PLAYAAANDPLAYNONOALLBOYNONOANDPLAYPLAYJACKDULLBOYNO</pre>
       </main>
       <p id="pageNav">
-        <a href="/pages/646.html">prev</a>&nbsp;&nbsp;&nbsp;Page647&nbsp;&nbsp;&nbsp;<a href="/pages/648.html">next</a><br /><br />
+        <a href="/pages/646.html">prev</a>&nbsp;&nbsp;&nbsp;Page&nbsp;647&nbsp;&nbsp;&nbsp;<a href="/pages/648.html">next</a><br /><br />
         <button id="randomButton">Random Page</button>
       </p>
     </div>

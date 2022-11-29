@@ -29,6 +29,10 @@
       href="/favicons/180x180.png"
     />
 
+    <link rel="prefetch" href="/pages/170.html" />
+            <link rel="prefetch" href="/pages/172.html" />
+            
+
     <style>
       *,
       *::before,
@@ -154,17 +158,30 @@
       }
     </style>
     <script>
+      const randomPageNum = Math.floor(Math.random() * 665) + 1
+
+      const handleKeyUp = (event) => {
+        const the_key = event.key.toLowerCase()
+        if (the_key === 'arrowright' || the_key === 'arrowdown') {
+          window.location.href = `/pages/` + 172 + `.html`
+        } else if (the_key === 'arrowleft' || the_key === 'arrowup') {
+          window.location.href = `/pages/` + 170 + `.html`
+        }
+      }
       const handleRandom = () => {
-        const pageNum = Math.floor(Math.random() * 665) + 1
-        window.location.href = `/pages/` + pageNum + `.html`
+        window.location.href = `/pages/` + randomPageNum + `.html`
       }
 
       const init = () => {
         document
           .getElementById('randomButton')
           .addEventListener('click', handleRandom)
+        const req = new XMLHttpRequest()
+        req.open('GET', `/pages/` + randomPageNum + `.html`)
+        req.send()
       }
       document.addEventListener('DOMContentLoaded', init)
+      document.addEventListener('keyup', handleKeyUp)
     </script>
   </head>
   <body>
@@ -179,17 +196,18 @@
         <a href="https://podcast.alanwsmith.com">podcast</a>
       </header>
       <main>
-        <pre id="theWords">      jbb      m b     m   m  j     b  jj       j       m
-       mb     m   b j m  yj   b  m       j       y
-
-       ALL WORK AND NO PLAY MAKES JACK A DULL BOY
-       ALL WORK AND NO PLAY MAKES JACK A DULL BOY
-       ALL WORK AND NO PLAY MAKES JACK A DULL BOY
-
-     mbj  j     b j    j     y   m m       j      j</pre>
+        <pre id="theWords">                     M                    
+                     M                    
+                     M                    
+ALL WORK AND NO PLAY  AKES JACK A DULL BOY
+                     M                    
+                     M                    
+                     M                    
+                     M                    
+</pre>
       </main>
       <p id="pageNav">
-        <a href="/pages/170.html">prev</a>&nbsp;&nbsp;&nbsp;Page171&nbsp;&nbsp;&nbsp;<a href="/pages/172.html">next</a><br /><br />
+        <a href="/pages/170.html">prev</a>&nbsp;&nbsp;&nbsp;Page&nbsp;171&nbsp;&nbsp;&nbsp;<a href="/pages/172.html">next</a><br /><br />
         <button id="randomButton">Random Page</button>
       </p>
     </div>

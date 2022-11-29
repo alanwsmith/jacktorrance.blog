@@ -29,6 +29,10 @@
       href="/favicons/180x180.png"
     />
 
+    <link rel="prefetch" href="/pages/612.html" />
+            <link rel="prefetch" href="/pages/614.html" />
+            
+
     <style>
       *,
       *::before,
@@ -154,17 +158,30 @@
       }
     </style>
     <script>
+      const randomPageNum = Math.floor(Math.random() * 665) + 1
+
+      const handleKeyUp = (event) => {
+        const the_key = event.key.toLowerCase()
+        if (the_key === 'arrowright' || the_key === 'arrowdown') {
+          window.location.href = `/pages/` + 614 + `.html`
+        } else if (the_key === 'arrowleft' || the_key === 'arrowup') {
+          window.location.href = `/pages/` + 612 + `.html`
+        }
+      }
       const handleRandom = () => {
-        const pageNum = Math.floor(Math.random() * 665) + 1
-        window.location.href = `/pages/` + pageNum + `.html`
+        window.location.href = `/pages/` + randomPageNum + `.html`
       }
 
       const init = () => {
         document
           .getElementById('randomButton')
           .addEventListener('click', handleRandom)
+        const req = new XMLHttpRequest()
+        req.open('GET', `/pages/` + randomPageNum + `.html`)
+        req.send()
       }
       document.addEventListener('DOMContentLoaded', init)
+      document.addEventListener('keyup', handleKeyUp)
     </script>
   </head>
   <body>
@@ -179,20 +196,19 @@
         <a href="https://podcast.alanwsmith.com">podcast</a>
       </header>
       <main>
-        <pre id="theWords">                     NO        BOY PLAY  ALL    AND
-                      PLAY          AND        DULL
-                  NO    ALL         DULL     AND
-                      WORK        NO AND A         A
-
-aLL wORK aND nO pLAY mAKES jACK a dULL bOY
-
-                        ALL         JACK    A  WORK
-                    JACK        JACK          AND
-                      MAKES  JACK       A     AND
-</pre>
+        <pre id="theWords">JACK JACK JACK JACK JACK JACK JACK JACK JACK   boy
+JACK JACK JACK JACK JACK JACK JACK     aJACK JACK 
+JACK JACK JACK JACK  playJACK JACK JACK JACK JACK 
+JACK  workJACK JACK JACK JACK JACK JACK JACK JACK 
+JACK JACK JACK JACK JACK JACK JACK JACK  dullJACK 
+  allJACK JACK JACK JACK JACK JACK JACK JACK JACK 
+JACK JACK JACK JACK JACK makesJACK JACK JACK JACK 
+JACK JACK   andJACK JACK JACK JACK JACK JACK JACK 
+JACK JACK JACK    noJACK JACK JACK JACK JACK JACK 
+JACK JACK JACK JACK JACK JACK  jackJACK JACK JACK </pre>
       </main>
       <p id="pageNav">
-        <a href="/pages/612.html">prev</a>&nbsp;&nbsp;&nbsp;Page613&nbsp;&nbsp;&nbsp;<a href="/pages/614.html">next</a><br /><br />
+        <a href="/pages/612.html">prev</a>&nbsp;&nbsp;&nbsp;Page&nbsp;613&nbsp;&nbsp;&nbsp;<a href="/pages/614.html">next</a><br /><br />
         <button id="randomButton">Random Page</button>
       </p>
     </div>
