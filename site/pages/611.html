@@ -85,11 +85,11 @@
         height: 100%;
         margin: 0;
         font-family: monospace;
-        background-color: #fff;
+        background-color: #000;
         font-size: 0.9rem;
       }
 
-      #wrapper {
+      #wrapper_v1 {
         display: grid;
         grid-template-rows: auto 1fr auto;
         grid-template-columns: 100%;
@@ -108,7 +108,7 @@
         justify-self: center;
         align-self: center;
         display: grid;
-        min-height: 21rem;
+        min-height: 23rem;
         background-color: #fff;
       }
 
@@ -128,7 +128,7 @@
         padding-top: 2.1rem;
         font-family: monospace;
         text-align: center;
-        margin-bottom: 4rem;
+        margin-bottom: 1rem;
         background-color: #fff;
       }
 
@@ -156,6 +156,22 @@
       button {
         cursor: pointer;
       }
+
+      body {
+        display: grid;
+        align-content: center;
+        justify-content: center;
+      }
+
+      #wrapper {
+        background-color: #fff;
+        border: 2px solid #8a0303;
+        min-height: min(540px, 94vh);
+        min-width: min(500px, 96vw);
+        max-width: 700px;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+      }
     </style>
     <script>
       const randomPageNum = Math.floor(Math.random() * 665) + 1
@@ -163,9 +179,15 @@
       const handleKeyUp = (event) => {
         const the_key = event.key.toLowerCase()
         if (the_key === 'arrowright' || the_key === 'arrowdown') {
-          window.location.href = `/pages/` + 612 + `.html`
+          if (612 !== 667) {
+            window.location.href = `/pages/` + 612 + `.html`
+          }
         } else if (the_key === 'arrowleft' || the_key === 'arrowup') {
-          window.location.href = `/pages/` + 610 + `.html`
+          if (610 > 0) {
+            window.location.href = `/pages/` + 610 + `.html`
+          } else if (610 === 0) {
+            window.location.href = `/`
+          }
         }
       }
       const handleRandom = () => {
@@ -196,16 +218,16 @@
         <a href="https://podcast.alanwsmith.com">podcast</a>
       </header>
       <main>
-        <pre id="theWords">PLAY PLAY PLAY PLAY PLAY PLAY PLAY PLAY PLAY   boy
-PLAY PLAY PLAY PLAY PLAY PLAY PLAY     aPLAY PLAY 
-PLAY PLAY PLAY PLAY  playPLAY PLAY PLAY PLAY PLAY 
-PLAY PLAY PLAY PLAY PLAY makesPLAY PLAY PLAY PLAY 
-PLAY PLAY PLAY    noPLAY PLAY PLAY PLAY PLAY PLAY 
-  allPLAY PLAY PLAY PLAY PLAY PLAY PLAY PLAY PLAY 
-PLAY PLAY PLAY PLAY PLAY PLAY PLAY PLAY  dullPLAY 
-PLAY  workPLAY PLAY PLAY PLAY PLAY PLAY PLAY PLAY 
-PLAY PLAY PLAY PLAY PLAY PLAY  jackPLAY PLAY PLAY 
-PLAY PLAY   andPLAY PLAY PLAY PLAY PLAY PLAY PLAY </pre>
+        <pre id="theWords">b b jyj yy y b yb y y j yj b ybj yj yyjbjbyy y j y
+y jbjbj yjb bybjy j b yyj bjyjj jy jjbjy jy b jbjb
+ jbb y yb jbj y b jjj j b bbb jjybb yb yb yyj by y
+
+    ALL WORK AND NO PLAY MAKES JACK A DULL BOY
+    ALL WORK AND NO PLAY MAKES JACK A DULL BOY
+    ALL WORK AND NO PLAY MAKES JACK A DULL BOY
+
+ y b j jj jj y yjy yjjbjy y j bjj bbj jyyj b j yyb
+ y jb jjj yy y bj bb j jby y b yj bj yjy y b y b b</pre>
       </main>
       <p id="pageNav">
         <a href="/pages/610.html">prev</a>&nbsp;&nbsp;&nbsp;Page&nbsp;611&nbsp;&nbsp;&nbsp;<a href="/pages/612.html">next</a><br /><br />

@@ -29,6 +29,8 @@
       href="/favicons/180x180.png"
     />
 
+    <link rel="prefetch" href="/pages/665.html" />
+
     <style>
       *,
       *::before,
@@ -81,11 +83,11 @@
         height: 100%;
         margin: 0;
         font-family: monospace;
-        background-color: #fff;
+        background-color: #000;
         font-size: 0.9rem;
       }
 
-      #wrapper {
+      #wrapper_v1 {
         display: grid;
         grid-template-rows: auto 1fr auto;
         grid-template-columns: 100%;
@@ -104,7 +106,7 @@
         justify-self: center;
         align-self: center;
         display: grid;
-        min-height: 21rem;
+        min-height: 23rem;
         background-color: #fff;
       }
 
@@ -124,7 +126,7 @@
         padding-top: 2.1rem;
         font-family: monospace;
         text-align: center;
-        margin-bottom: 4rem;
+        margin-bottom: 1rem;
         background-color: #fff;
       }
 
@@ -152,19 +154,54 @@
       button {
         cursor: pointer;
       }
+
+      body {
+        display: grid;
+        align-content: center;
+        justify-content: center;
+      }
+
+      #wrapper {
+        background-color: #fff;
+        border: 2px solid #8a0303;
+        min-height: min(540px, 94vh);
+        min-width: min(500px, 96vw);
+        max-width: 700px;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+      }
     </style>
     <script>
+      const randomPageNum = Math.floor(Math.random() * 665) + 1
+
+      const handleKeyUp = (event) => {
+        const the_key = event.key.toLowerCase()
+        if (the_key === 'arrowright' || the_key === 'arrowdown') {
+          if (667 !== 667) {
+            window.location.href = `/pages/` + 667 + `.html`
+          }
+        } else if (the_key === 'arrowleft' || the_key === 'arrowup') {
+          if (665 > 0) {
+            window.location.href = `/pages/` + 665 + `.html`
+          } else if (665 === 0) {
+            window.location.href = `/`
+          }
+        }
+      }
       const handleRandom = () => {
-        const pageNum = Math.floor(Math.random() * 665) + 1
-        window.location.href = `/pages/` + pageNum + `.html`
+        window.location.href = `/pages/` + randomPageNum + `.html`
       }
 
       const init = () => {
         document
           .getElementById('randomButton')
           .addEventListener('click', handleRandom)
+        const req = new XMLHttpRequest()
+        req.open('GET', `/pages/` + randomPageNum + `.html`)
+        req.send()
       }
       document.addEventListener('DOMContentLoaded', init)
+      document.addEventListener('keyup', handleKeyUp)
     </script>
   </head>
   <body>
@@ -182,7 +219,7 @@
         <pre id="theWords">~ REDRUM ~</pre>
       </main>
       <p id="pageNav">
-        <a href="/pages/665.html">prev</a>&nbsp;&nbsp;&nbsp;Page666&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><br />
+        <a href="/pages/665.html">prev</a>&nbsp;&nbsp;&nbsp;Page&nbsp;666&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><br />
         <button id="randomButton">Random Page</button>
       </p>
     </div>

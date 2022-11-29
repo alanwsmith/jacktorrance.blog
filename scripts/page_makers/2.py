@@ -2,7 +2,7 @@
 
 import os
 base_filename = os.path.basename(__file__).split('.')[0]
-output_path = f'output/{base_filename}.txt'
+output_path = f'output/{base_filename}-0.txt'
 
 words = ['All', 'work', 'and', 'no', 'play', 'makes', 'Jack', 'a', 'dull', 'boy']
 

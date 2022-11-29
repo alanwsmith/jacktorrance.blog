@@ -21,7 +21,7 @@ class PageBuilder():
     def data(self):
         payload = []
 
-        for i in range(0, 122):
+        for i in range(0, 123):
             file_list = [
                 file for file in glob.glob(f"{source_dir}/{i}-*")
             ]
@@ -46,7 +46,7 @@ class PageBuilder():
         next_link = '234343'
         display_num = '234343'
         links = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cover&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/pages/1.html">next</a>'
-        random = '<button id="randomButton">&nbsp;</button>'
+        random = '<button id="randomButton">hint: the arrow keys work</button>'
         cover = "cover page"
         next_num = 1
 
@@ -70,6 +70,7 @@ class PageBuilder():
             )
 
         for index, words in enumerate(self.data()):
+            print(index)
 
             # get report data
             lines = words.split("\n")
@@ -130,6 +131,8 @@ class PageBuilder():
 
 
 if __name__ == '__main__':
+    import datetime
+    print("Building:" + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     pb = PageBuilder()
     pb.make_pages()
 
